@@ -1,0 +1,28 @@
+# OS
+Thumbs.db
+.DS_Store
+
+# Editor
+.vscode/
+*.swp
+
+# Sensitive data — never commit token files or credential lists
+**/secrets/
+**/credentials/
+
+# Company-specific configuration (share manually with colleagues)
+private/
+
+# Company-specific skills (Bentley iTwin, internal APIs)
+.github/skills/itwin-user-management/
+
+# Company-specific sample queries and data exports (moved to private/)
+resources/Snowflake_BIRD/
+resources/Databricks/
+
+# Temporary scripts and data exports with company-specific content
+tmp_*.py
+wsb_*.csv
+
+# Company-branded HTML report templates (moved to private/)
+.github/skills/answer-data-curiosity/templates/
